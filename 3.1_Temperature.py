@@ -9,10 +9,10 @@ In: 32  Out: 0
 In: 212  Out: 100
 In: 52  Out: 11.1
 In: 25  Out: -3.9
-In: -40  Out: ???
+In: -40  Out: -40
 
 '''
-
-
-
+type=f
+f=
+c=(f-32)*(5/9)
 

@@ -1,44 +1,44 @@
 '''
 HONOR CODE: I solemnly promise that while taking this test I will only use PyCharm or the Internet,
-but I will definitely not ask another person except the instructor. Signed: ______________________
+but I will definitely not ask another person except the instructor. Signed: Ezra McCulley
 
 
 
-1. Write a line of code that will print your name.
+1. Write a line of code that will print your name. Print(Ezra McCulley)
 '''
 
 
 '''
 2. How do you enter a comment in a program?
-
+Create two lines with thre commas in each and type in any line between those two
 '''
 
 
 '''
 3. What is the ouput of the following lines of code?
-print (2/3)
-print (2//3)
+print (2/3) 0.666666666666666
+print (2//3) 0
 '''
 
 
 '''
 4. Write a line of code that creates a variable called pi and sets it to an
 appropriate value.
-
+pi=3.14
 '''
 
 
 '''
 5. Why does this code not work?
 A=22
-print(a)
+print(a)_ The "A" between the parenthesis is lowercase while the variable is uppercase
 '''
 
 
 
 '''
 6. All of the variable names below can be used. But which of these is the best?
-a
+a-this one
 A
 Area
 AREA
@@ -54,8 +54,8 @@ apple
 Apple
 APPLE
 Apple2
-1Apple
-account number
+1Apple - not allowed
+account number - not allowed
 account_number
 account.number
 accountNumber
@@ -68,7 +68,7 @@ account#
 8. Why does this code not work?
 
 print(a)
-a=45
+a=45 - because the print command was typed before the variable was set
 '''
 
 
