@@ -12,7 +12,6 @@ In: 25  Out: -3.9
 In: -40  Out: -40
 
 '''
-type=f
-f=
+f=int(input("Enter degrees fahrenheit:"))
 c=(f-32)*(5/9)
-
+print(c)
