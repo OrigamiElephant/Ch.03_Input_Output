@@ -28,7 +28,7 @@ Area=(B*H)/2
 A=May the Force be with you!
 print(a)
 '''
-A=May the Force be with you
+A="May the Force be with you!"
 print(A)
 '''
 6. Write a line of code that will ask the user for the length of a square's
@@ -49,7 +49,12 @@ Ellipse_Area=pi*a*b
 8. Ask a user for moles, volume and temperature of a gas and print out the pressure. PV=nRT where n is the number of moles, T is the absolute temperature, V is the
 volume, and R is the gas constant 8.3144.
 '''
-
+moles = n = float(input("Moles: "))
+temperature = T = float(input("Temperature: "))
+volume = V = float(input("Volume: "))
+Gas_Contant = R = 8.3144
+Pressure = PV=nRT
+print(Pressure)
 '''
 9. Ask a user for an integer and then print the square root.
 '''
@@ -59,4 +64,8 @@ print()
 10. Good Star Wars joke: "May the mass times acceleration be with you!" because F=ma. Ask the user for mass and acceleration
 and then print out the Force on one line and "Get it?" on the next.
 '''
-
+mass=int(input("Mass: "))
+acceleration=int(input("Acceleration: "))
+Force = mass * acceleration
+type(Force)
+Type("Get it?")
