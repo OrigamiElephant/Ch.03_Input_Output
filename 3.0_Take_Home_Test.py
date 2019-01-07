@@ -47,7 +47,7 @@ pi=3.14
 Ellipse_Area=pi*a*b
 '''
 8. Ask a user for moles, volume and temperature of a gas and print out the pressure. PV=nRT where n is the number of moles, T is the absolute temperature, V is the
-volume, and R is the gas constant 8.3144.
+volume, and R is the gas constant 8.3144. INCORRECT: Assigning variables incorrectly and P=(n*R*T)/V
 '''
 moles = n = float(input("Moles: "))
 temperature = T = float(input("Temperature: "))
@@ -56,13 +56,13 @@ Gas_Contant = R = 8.3144
 Pressure = PV=nRT
 print(Pressure)
 '''
-9. Ask a user for an integer and then print the square root.
+9. Ask a user for an integer and then print the square root. INCORRECT: This will not print the squareroot
 '''
 a=int(input("Integer:"))
 print()
 '''
 10. Good Star Wars joke: "May the mass times acceleration be with you!" because F=ma. Ask the user for mass and acceleration
-and then print out the Force on one line and "Get it?" on the next.
+and then print out the Force on one line and "Get it?" on the next. INCORRECT: you need to print not find the type.
 '''
 mass=int(input("Mass: "))
 acceleration=int(input("Acceleration: "))
