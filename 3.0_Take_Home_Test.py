@@ -53,13 +53,13 @@ moles = n = float(input("Moles: "))
 temperature = T = float(input("Temperature: "))
 volume = V = float(input("Volume: "))
 Gas_Contant = R = 8.3144
-Pressure = PV=nRT
+Pressure = (n*R*T)/V
 print(Pressure)
 '''
 9. Ask a user for an integer and then print the square root.
 '''
 a=int(input("Integer:"))
-print()
+print(a**.5)
 '''
 10. Good Star Wars joke: "May the mass times acceleration be with you!" because F=ma. Ask the user for mass and acceleration
 and then print out the Force on one line and "Get it?" on the next.
@@ -68,4 +68,4 @@ mass=int(input("Mass: "))
 acceleration=int(input("Acceleration: "))
 Force = mass * acceleration
 type(Force)
-Type("Get it?")
+type("Get it?")
