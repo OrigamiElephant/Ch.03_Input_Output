@@ -14,10 +14,10 @@ Print(Name)
 3. Predict the ouput of the following lines of code and then test them? Write down your prediction and the output.
 print (17/9) Prediction: 1.8 Output:1.8888888888-
 print (17//9) Prediction:1 Output: 1
-print (17%9) Prediction: 1.8 Output: 8
+print (17%9) Prediction: 1.8 Output: 8  WHY?
 '''
 
-'''
+''' INCORRECT! THis does not print the area
 4. Write a a program where a user enters a base and height and you print the area of a triangle.
 '''
 B=int(input("Base:"))
@@ -30,14 +30,14 @@ print(a)
 '''
 A="May the Force be with you!"
 print(A)
-'''
+''' This does not print the area
 6. Write a line of code that will ask the user for the length of a square's
 side and then print the area of the square
 '''
 S=int(input("Squares Side Length:"))
 S_Area=S*S
 
-'''
+''' does not print.
 7. Ask a user for the length of radii of an ellipse and then print its area. 
 Area=pi*a*b where a and b are the lengths of the major radii.
 '''
@@ -45,7 +45,7 @@ a=int(input("Ellipse Radii height:"))
 b=int(input("Ellipse Radii Width:"))
 pi=3.14
 Ellipse_Area=pi*a*b
-'''
+''' Not sure why you do this. Call me over to remind me to talk to you about this one.
 8. Ask a user for moles, volume and temperature of a gas and print out the pressure. PV=nRT where n is the number of moles, T is the absolute temperature, V is the
 volume, and R is the gas constant 8.3144.
 '''
@@ -60,7 +60,7 @@ print(Pressure)
 '''
 a=int(input("Integer:"))
 print(a**.5)
-'''
+''' This won't work.
 10. Good Star Wars joke: "May the mass times acceleration be with you!" because F=ma. Ask the user for mass and acceleration
 and then print out the Force on one line and "Get it?" on the next.
 '''
