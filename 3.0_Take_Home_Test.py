@@ -64,8 +64,8 @@ print(a**.5)
 10. Good Star Wars joke: "May the mass times acceleration be with you!" because F=ma. Ask the user for mass and acceleration
 and then print out the Force on one line and "Get it?" on the next.
 '''
-mass=int(input("Mass: "))
-acceleration=int(input("Acceleration: "))
+mass=float(input("Mass: "))
+acceleration=float(input("Acceleration: "))
 Force = mass * acceleration
-type(Force)
-type("Get it?")
+print("May the "Force" be with you")
+print("Get it?")
