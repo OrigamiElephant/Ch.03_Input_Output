@@ -16,3 +16,4 @@ G=int(input("Semester Grade: "))
 E=int(input("Final Exam: "))
 W=float(input("Exam Worth: "))
 Overall = (G*(100-W)+E*W)/100
+print("Overall Grade:",Overall)
