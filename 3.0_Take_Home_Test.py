@@ -3,13 +3,13 @@ HONOR CODE: I solemnly promise that while taking this test I will only use PyCha
 but I will definitely not ask another person except the instructor. Signed: Ezra McCulley
 1. Write a line of code that will print your name.
 '''
-print("Ezra McCulley")
+Print("Ezra McCulley")
 
 '''
 2. Write a program that asks someone for their name and then prints their name to the screen?
 '''
-Name=input("Name:")
-print(Name)
+Name=(Input("Name:"))
+Print(Name)
 '''
 3. Predict the ouput of the following lines of code and then test them? Write down your prediction and the output.
 print (17/9) Prediction: 1.8 Output:1.8888888888-
@@ -23,7 +23,6 @@ print (17%9) Prediction: 1.8 Output: 8
 B=int(input("Base:"))
 H=int(input("Height:"))
 Area=(B*H)/2
-print("Triangle Area",Area)
 '''
 5. Change this program so it works.
 A=May the Force be with you!
@@ -37,7 +36,6 @@ side and then print the area of the square
 '''
 S=int(input("Squares Side Length:"))
 S_Area=S*S
-print("Square Area",S_Area)
 
 '''
 7. Ask a user for the length of radii of an ellipse and then print its area. 
@@ -47,7 +45,6 @@ a=int(input("Ellipse Radii height:"))
 b=int(input("Ellipse Radii Width:"))
 pi=3.14
 Ellipse_Area=pi*a*b
-print("Ellipse Area",Ellipse_Area)
 '''
 8. Ask a user for moles, volume and temperature of a gas and print out the pressure. PV=nRT where n is the number of moles, T is the absolute temperature, V is the
 volume, and R is the gas constant 8.3144.
@@ -62,7 +59,7 @@ print(Pressure)
 9. Ask a user for an integer and then print the square root.
 '''
 a=int(input("Integer:"))
-print("Square root:",a**.5)
+print(a**.5)
 '''
 10. Good Star Wars joke: "May the mass times acceleration be with you!" because F=ma. Ask the user for mass and acceleration
 and then print out the Force on one line and "Get it?" on the next.
@@ -70,5 +67,5 @@ and then print out the Force on one line and "Get it?" on the next.
 Mass=float(input("Mass: "))
 acceleration=float(input("Acceleration: "))
 Force = Mass * acceleration
-print("May the ",Force," be with you")
+print("May the "Force" be with you")
 print("Get it?")
