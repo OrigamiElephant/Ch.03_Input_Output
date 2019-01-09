@@ -36,7 +36,6 @@ side and then print the area of the square
 '''
 S=int(input("Squares Side Length:"))
 S_Area=S*S
-
 '''
 7. Ask a user for the length of radii of an ellipse and then print its area. 
 Area=pi*a*b where a and b are the lengths of the major radii.
